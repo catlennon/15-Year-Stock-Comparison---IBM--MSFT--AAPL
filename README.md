@@ -51,8 +51,4 @@ I created this Jupyter Notebook for my team in the graduate-level Financial Data
 - Conducted T-tests on log returns, finding significant non-zero returns for MSFT and AAPL.
 - Computed holding period returns, revealing MSFT and IBM with higher annualized returns compared to AAPL.
 
----
-
-Please reach out if you need further details or insights regarding the stock comparison analysis!
-
  
