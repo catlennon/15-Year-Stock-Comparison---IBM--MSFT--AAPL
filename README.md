@@ -12,6 +12,8 @@ I created this Jupyter Notebook for my team in the graduate-level Financial Data
 - **Price Plots**: Visualized the daily closing prices of NFLX and monthly adjusted closing prices of IBM, MSFT, and AAPL to observe general trends over time.
   - Netflix's stock price showed a steady increase from 2004 to 2019, with notable fluctuations during specific periods.
   - IBM, MSFT, and AAPL were plotted together to compare their performance, revealing that MSFT overtook IBM by the end of the period, while AAPL showed consistent growth.
+ 
+![NFLX Daily Closing Price](images/netflix.png)  ![IBM, MSFT, AAPL Monthly Prices](images/ibm_msft_aapl_prices.png)
 
 ### 3. Log Returns Calculation
 - **Daily Log Returns for NFLX**: Calculated the daily log returns for NFLX using the formula “log(P1/P0)” to understand the stock's daily performance.
@@ -23,6 +25,9 @@ I created this Jupyter Notebook for my team in the graduate-level Financial Data
   - **IBM**: Mean return of 0.004, standard deviation of 0.06, min of -0.27, and max of 0.168.
   - **MSFT**: Mean return of 0.012, standard deviation of 0.065, min of -0.181, and max of 0.223.
   - **AAPL**: Mean return of 0.023, standard deviation of 0.093, min of -0.4, and max of 0.213.
+
+![Log Returns Histogram](images/monthly_log_returns_all.png)
+
 - **T-Test for Log Returns**: Conducted T-tests to evaluate whether the average log returns were statistically different from zero.
   - NFLX had a p-value of 4.3%, suggesting marginal statistical significance.
   - IBM had a p-value of 36.5%, indicating non-significance.
@@ -38,14 +43,6 @@ I created this Jupyter Notebook for my team in the graduate-level Financial Data
 - **Histograms**: Constructed histograms of daily returns for NFLX and monthly returns for IBM, MSFT, and AAPL to visualize the distribution.
   - IBM's histogram showed most returns clustered around -0.025 to 0.0, with high volatility.
   - MSFT's and AAPL's histograms revealed that returns clustered between 0.025 and 0.05, indicating relatively stable performance.
-
-## Visual Summaries to Include
-- **Netflix Daily Closing Price Plot**: Displays the overall growth trend with fluctuations from 2004 to 2019.
-  ![NFLX Daily Closing Price](images/netflix.png)
-- **Monthly Adjusted Closing Prices for IBM, MSFT, and AAPL**: Highlights the comparative growth of the three companies.
-  ![IBM, MSFT, AAPL Monthly Prices](images/ibm_msft_aapl_prices.png)
-- **Log Returns Histogram for IBM, MSFT, and AAPL**: Shows the distribution of monthly returns for each stock.
-  ![Log Returns Histogram](images/monthly_log_returns_ibm.png)
 
 ## Summary of Analysis
 - Extracted and explored daily and monthly stock data for NFLX, IBM, MSFT, and AAPL, visualizing their price movements.
